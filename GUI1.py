@@ -10,6 +10,7 @@ root.minsize(787,256)
 root.maxsize(987,456)
 
 #add text to GUI window
-Label(root,text="This is the first Label in this GUI! Please subscribe!")
+txt=Label(root,text="This is the first Label in this GUI! Please subscribe!")
+text.pack()
 
 root.mainloop()
