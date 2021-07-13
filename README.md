@@ -3,10 +3,10 @@ Full tutorial Source Code.
 
 all you need is to import tkinter!
 
-#import-problems
+# Import-problems
+1)If you are using an older version you should replace tkinter with 'Tkinter'
 
-1)If you are using an older version you should import tkinter as 'Tkinter'
-
+# Additional-installation
 Other modules are to be installed using pip.
 
 Watch all the videos for reference and understanding!
