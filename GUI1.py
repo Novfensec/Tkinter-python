@@ -1,4 +1,9 @@
+#old version import
 from Tkinter import *
+
+#upgraded version import
+from tkinter import *
+
 root=Tk()
 #window Width x Height
 root.geometry('987x456')
