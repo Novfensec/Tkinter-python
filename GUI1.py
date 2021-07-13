@@ -1,7 +1,7 @@
-#old version import
+#old version import(2.x)
 from Tkinter import *
 
-#upgraded version import
+#upgraded version import(3.x)
 from tkinter import *
 
 root=Tk()
