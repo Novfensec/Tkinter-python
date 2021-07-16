@@ -6,7 +6,7 @@ from tkinter import *
 
 root=Tk()
 
-#window Width x Height
+#window default size Width x Height
 root.geometry('987x456')
 
 #window maximum size
