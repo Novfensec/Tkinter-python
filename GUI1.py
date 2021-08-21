@@ -19,7 +19,6 @@ root.minsize(787,256)
 root.maxsize(987,456)
 
 
-
 #window Icon choice1
 img=PhotoImage(file="filename")
 root.iconphoto(False,img)
@@ -31,9 +30,15 @@ root.iconbitmap(r'filename.ico')
 root.wm_iconbitmap("filename.ico")
 
 
-
 #add text to GUI window with Label widget
 txt=Label(root,text="This is the first Label in this GUI! Please subscribe!")
 text.pack()
+
+
+#add image to GUI with PhotoImage and Label widgets
+photo=PhotoImage(file="new.jpg")
+labelph=Label(root,image=photo)
+labelph.pack()
+
 
 root.mainloop()
