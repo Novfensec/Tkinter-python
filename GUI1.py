@@ -15,10 +15,10 @@ root.geometry('987x456')
 #window title
 root.title("Untitled-Notepad")
 
-#window maximum size
+#window minimum size
 root.minsize(787,256)
 
-#window minimum size
+#window maximum size
 root.maxsize(987,456)
 
 
