@@ -34,8 +34,20 @@ root.wm_iconbitmap("filename.ico")
 
 
 #add text to GUI window with Label widget
-txt=Label(root,text="This is the first Label in this GUI! Please subscribe!")
-text.pack()
+#some label attributes
+# fg- text color
+# bg- background color
+# bd- padding
+# padx- x axis padding
+# pady- y axis padding
+# text- adding text
+# image- adding image
+# font- define font styles
+# relief- define border styles
+# borderwidth- define border width
+
+txt=Label(root,text="hello this is the first label.",fg="white",bg="grey",padx="44",pady="69",font="comicsansms 19 bold",relief=RAISED,borderwidth="15")    
+txt.pack()
 
 #add unsupported image to GUI with PILLOW
 newph=Image.open("1.jpeg")
