@@ -46,8 +46,16 @@ root.wm_iconbitmap("filename.ico")
 # relief- define border styles
 # borderwidth- define border width
 
-txt=Label(root,text="hello this is the first label.",fg="white",bg="grey",padx="44",pady="69",font="comicsansms 19 bold",relief=RAISED,borderwidth="15")    
-txt.pack()
+txt=Label(root,text="hello this is the first label.",fg="white",bg="grey",padx="44",pady="69",font="comicsansms 19 bold",relief=RAISED,borderwidth="15")
+
+#some pack attributes
+# anchor- north,south,east,west
+# side- top,bottom,right,left
+# padx- padding on x-axis
+# pady- padding on y-axis
+# fill- x,y,both
+
+txt.pack(anchor="nw", side="top", padx="45", pady="45",fill="both")
 
 #add unsupported image to GUI with PILLOW
 newph=Image.open("1.jpeg")
